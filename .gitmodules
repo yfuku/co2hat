@@ -4,3 +4,6 @@
 [submodule "micropython"]
 	path = micropython
 	url = https://github.com/micropython/micropython.git
+[submodule "ambient-python-lib"]
+	path = ambient-python-lib
+	url = https://github.com/AmbientDataInc/ambient-python-lib

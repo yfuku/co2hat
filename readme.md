@@ -1,9 +1,12 @@
 ```
 git submodule add https://github.com/rin-ofumi/m5stickc_co2_hat.git
 git submodule add https://github.com/micropython/micropython.git
+git submodule add https://github.com/AmbientDataInc/ambient-python-lib
 
 mkdir co2hat
 mkdir co2hat/apps
+
+cp -p ambient-python-lib/ambient.py ./co2hat/
 
 cp -p m5stickc_co2_hat/CO2_zeropoint.py ./co2hat/apps/zeropoint.py
 cp -p m5stickc_co2_hat/test_CO2_Ambient.py ./co2hat/apps/CO2_Ambiet.py

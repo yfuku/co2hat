@@ -1,0 +1,6 @@
+[submodule "m5stickc_co2_hat"]
+	path = m5stickc_co2_hat
+	url = https://github.com/rin-ofumi/m5stickc_co2_hat.git
+[submodule "micropython"]
+	path = micropython
+	url = https://github.com/micropython/micropython.git
